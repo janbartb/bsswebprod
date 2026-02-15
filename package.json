@@ -1,0 +1,20 @@
+{
+    "name": "bsswebprod",
+    "version": "1.0.0",
+    "description": "heroku bssweb info site",
+    "engines": {
+        "node": "20.x || 22.x || 24.x"
+    },
+    "license": "ISC",
+    "author": "Jan Bart Biemans",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "ejs": "^4.0.1",
+        "express": "^5.2.1"
+    }
+}
